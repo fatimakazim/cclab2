@@ -1,9 +1,9 @@
 let jelly;
 let canvasSize = 500;
 let pinkColor = "#ffb3bf"; // Color of the jellyfish
-let blueColor = "#3498db"; // New color for the jellyfish
+let blueColor = (168, 204, 255); // New color for the jellyfish
 let bubbles = []; // Array to store bubble objects
-let easing = 0.05; // Easing factor for jellyfish movement
+let easing = 0.05; // Easing factor for jellyfish movements
 let eyeSize = 10; // Size of the jellyfish's eyes
 let isJellyfishClicked = false; // Flag to track whether jellyfish was clicked
 
